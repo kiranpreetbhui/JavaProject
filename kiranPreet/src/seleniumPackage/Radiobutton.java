@@ -14,6 +14,19 @@ System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.e
        		 WebDriver browserObject = new ChromeDriver();
 		// 3. Open the form page http://training.qaonlinetraining.com/testPage.php
 	        browserObject.get("http://training.qaonlinetraining.com/testPage.php");
+browserObject.findElement(By.xpath("//input[@value ='female']")).click();
 	        
-	
+	        Thread.sleep(5000);
+	        
+	        browserObject.findElement(By.xpath("//input[@value ='male']")).click();
+	      //  browserObject.findElement(By.xpath("/html/body/form/input[5]")).click();
+	        
+	        Thread.sleep(5000);
+	        
+	        browserObject.findElement(By.xpath("//*[@id=\"other\"]")).click();
+	        
+	        browserObject.findElement(By.name("submit")).click();
+	        
+	}
+}
 
