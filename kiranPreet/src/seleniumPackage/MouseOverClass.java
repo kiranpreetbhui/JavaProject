@@ -1,6 +1,6 @@
 package seleniumPackage;
 
-public class RadioButtonClass {
+public class MouseOverClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
