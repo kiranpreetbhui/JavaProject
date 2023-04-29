@@ -10,7 +10,7 @@ public class FileExample {
 		
 		
 		String str = "hello this is file handling in java";
-        FileWriter fwrt = new FileWriter("C:\\Users\\Home-PC\\Desktop");
+        FileWriter fwrt = new FileWriter("C:\\Users\\Home-PC\\Desktop\\exmp.txt");
     for(int i=0;i<str.length();i++)
     {
         
