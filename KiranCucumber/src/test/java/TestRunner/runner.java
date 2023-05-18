@@ -8,7 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-				features="C:\\Users\\Home-PC\\eclipse-workspace\\KiranCucumber\\src\\test\\java\\Feature\\search.feature",
+				features="C:\\Users\\Home-PC\\git\\JavaProject\\KiranCucumber\\src\\test\\java\\Feature\\multiplelogin.feature",
+	
 				glue="StepDefinition",
 				dryRun=false
 				
